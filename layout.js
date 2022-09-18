@@ -12,6 +12,8 @@ const logo = (<div className="nav__logo">
 
 const stream = (<a href="#" className="nav__link-item">Stream</a>)
 
+const library = (<a href="#" className="nav__link-item">library</a>)
+
 const search = (<div className="nav__search">
     <form action="" method="post" className="nav__search-form">
         <input className="nav__search-input" type="text" placeholder="Search"></input>
