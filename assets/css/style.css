@@ -101,7 +101,7 @@ a.nav__link-item{
     padding: 13.5px 20px;
 }
 
-.nav__link-item--active {
+.nav__link-item.active {
     background-color: #b41842;
 }
 
@@ -150,10 +150,7 @@ a.nav__link-item{
 
 .nav__user span.user__name {
     color: #fff;
-}
-
-.nav__more {
-
+    margin-right: 10px;
 }
 
 .nav__more i{
@@ -176,10 +173,6 @@ a.nav__link-item{
     align-items: center;
 }
 
-.play-control__inner .btn-toggle-play i.icon-pause{
-    display: none;
-}
-
 .playback-timeline {
     flex: 1;
     display: flex;
@@ -192,10 +185,6 @@ a.nav__link-item{
 .playback-timeline .progress {
     flex: 1;
     margin: 0 10px;
-}
-
-.play-control__sound-badge {
-
 }
 
 .playback-sound-badge {
@@ -317,7 +306,7 @@ a.mixed-selection-title {
 }
 
 .collection-link:hover,
-.collection-link--active {
+.collection-link.active {
     border-bottom: 3px solid var(--primary-color);
     color: var(--primary-color);
 }
